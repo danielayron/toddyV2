@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Contact us!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="img/jpg" href="imagens/icone4.png">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="estilizadorT2.css">
+
+    </head>
+
+        <body class="fundoC">
+
+            <nav>
+                <ul>
+                    <li><a href="indexEN.html"><i class="material-icons left">home</i><button>Home</button> </a></li>
+                    <li><a href="sobreEN.html"><i class="material-icons right">info</i><button>About</button> </a></li>
+                    <li><a href="modeloEN.html"><i class="material-icons right">factory</i><button>Model</button> </a></li>
+                    <li><a href="contatoEN.html"><i class="material-icons right">call</i><button>Contact</button> </a></li>
+                </ul>
+            </nav>
+
+            <div class="bandeiras">
+                <a href="index.html"><img src="imagens/bandeiraB.png"> </a>
+                <a href="indexEN.html"><img src="imagens/bandeiraE.png"> </a>
+              </div>
+
+            <div class="tituloC">Contact us for more informations or doubts about the content!</div>
+
+            <form name="contato" action="avisoTEN.html" method="get">
+                <br><br>
+
+                <div class="formularios">
+                    Name: <input type="text" required="required" name="nome" placeholder="Type your nome"><br><br>
+                    Email: <input type="email" required="required" name="email" placeholder="Type your email"><br><br>
+                    Telephone: <input type="text" type="text" class="form-control" required="required" minlength="10" placeholder="(19) 98934-5675">
+                    <!--Cidade: <input type="text" name="cidade" placeholder="Hortolândia">--><br><br>
+
+
+                    Tell us any questions, observations etc. (opcional)<br> <textarea cols="30" rows="9" name="obs" placeholder=" &nbsp;Write here"></textarea>
+                </div>
+                <br>
+                <div class="btn-acao">
+                    <input type="submit" onclick="return validar()" value="Send">
+                    <input type="reset" name="limpa" value="Clear">
+                </div>
+
+            </form>
+
+            <footer id="rodapeC">Daniel Oliveira 2023 - &copyAll rights reserved</footer>
+
+
+        </body>
+
+</html>
