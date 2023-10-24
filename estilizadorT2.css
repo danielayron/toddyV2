@@ -5,7 +5,7 @@
 }
 
 .fundoI{                                        /*configurando a imagem de fudno da página inicial*/
-    background-image: url("imagens/TODDY.png");
+    background-image: url("imagens/Fundoi.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -30,15 +30,15 @@ nav{                      /*configurando a área em que o menu será inserido*/
 
 .bandeiras{
     position:relative;
-    margin-top: -60px;
+    margin-top: -55px;
     margin-left: 10px;
     width: 190px;
 
 }
 
 .bandeiras img{
-    width: 65px;
-    height: 60px;
+    width: 55px;
+    height: 50px;
     margin-right: 10px;
 }
 
@@ -46,6 +46,11 @@ nav{                      /*configurando a área em que o menu será inserido*/
 
 nav a{                  /* mudando a cor dos icones do menu*/
     color:black
+}
+
+nav ul li {
+    margin-left: 55px;
+    margin-right: 5px;
 }
 
 nav i.left{         /*ajustando o posicionamento e margem dos icones em relação aos nomes do menu*/
@@ -74,7 +79,7 @@ button{  /*configurando especificamente a área onde estão as âncoras do menu*
     background-color: #ffc700;
     border:none;
     font-size: 20px;
-    font-family: 'Times New Roman';
+    font-family: 'Calibri';
 }
 
 button:hover{ /*adicionando efeito ao passar o mouse em cima do menu*/
@@ -87,7 +92,7 @@ button:hover{ /*adicionando efeito ao passar o mouse em cima do menu*/
 	margin-top: 2%;
 	margin-left: 7%;
     margin-right: 10%;
-	font-family: Open Sans;
+	font-family: 'Calibri';
 	font-size: 50px;
 	color: black;
     
@@ -100,29 +105,25 @@ button:hover{ /*adicionando efeito ao passar o mouse em cima do menu*/
 	margin-right: 43%;
 	font-family: 'Calibri';
     font-size: 17px;
-	text-align: justify;
 	color: black;
 	}
 
 .imagensS{  /*ajustando a área onde será inserida a primeira imagem da página*/
     width: 350px;
     height: 350px;
-    margin-top: -490px;
-    margin-right: 12%;
+    margin-top: -420px;
+    margin-right: 5%;
     box-sizing: border-box;
-    border: 10px brown;
-    border-style:ridge;
     float: right;
     position: relative;
-    background-color: beige;
-    box-shadow: 10px 9px 9px blue;
+    box-shadow: 0px 0px 19px black;
+    
     }
 
 .imagensS img{ /*ajustando a primeira imagem*/
-    width: 300px;
-    height: 300px;
-    margin-top: 14px;
-    margin-right: 5%;
+    width: 350px;
+    height: 350px;
+   
     float: right;
     position: relative;
 }
@@ -139,14 +140,13 @@ button:hover{ /*adicionando efeito ao passar o mouse em cima do menu*/
     width: 350px;
     height: 350px;
     margin-top: -500px;
-    margin-right: 12%;
+    margin-right: 5%;
     box-sizing: border-box;
-    border: 10px brown;
-    border-style:ridge;
+    
     float: right;
     position: relative;
-    background-color: beige;
-    box-shadow: 10px 9px 9px blue;
+   
+    box-shadow: 0px 0px 19px black;
     }
 
 .imagensS2 img{ /*ajustando a segunda imagem da página*/
@@ -172,20 +172,25 @@ button:hover{ /*adicionando efeito ao passar o mouse em cima do menu*/
 
 .tabelaS td{ /* ajustando o espaçamento entre a tabela e o conteúdo*/
     padding: 8px;
+    font-family: 'Calibri';
 }
 
 /*ESTILIZANDO A PÁGINA "MODELO"*/
+
+.imagensM{
+    width:280px;
+    height:300px;
+    margin-left: 50%;
+    margin-top: 15%;
+    background-color: beige;
+}
+
 .imagensM img{  /*ajustando a posição das imagens na table*/
-    margin-top: 20%;
-    margin-left: 45%;
-    width: 250px;
-    height: 300px;
+    width: 200px;
+    height: 310px;
+    margin-left: 12%;
     padding: 5%;
     box-sizing: border-box;
-    border: 10px brown; /*<-- responsável por criar a borda marrom*/
-    border-style:ridge;  /*<-- responsável por estilizar a borda marrom*/
-    box-shadow: 10px 9px 9px red;  /*<-- responsável por fazer o efeito de "led" ao fundo*/
-    background-color: beige;
 }
 
 .imagensM img:hover {  /*adicionando efeito de crescer novamente*/
@@ -196,11 +201,38 @@ button:hover{ /*adicionando efeito ao passar o mouse em cima do menu*/
 	cursor: grab;
 	}
 
+
+
+    .imagens2M{
+        width:280px;
+        height:300px;
+        margin-left: 55%;
+        margin-top: 15%;
+        background-color: beige;
+    }
+
+    .imagens2M img{  /*ajustando a posição das imagens na table*/
+        width: 220px;
+        height: 310px;
+        margin-left: 8%;
+        padding: 5%;
+        box-sizing: border-box;
+    }
+
+    .imagens2M img:hover {  /*adicionando efeito de crescer novamente*/
+        -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
+        transition: all 0.5s;
+        cursor: grab;
+        }
+    
+
 .tituloM{  /*personalizando título*/
 	margin-top: 2%;
-	margin-left: 35%;
+	margin-left: 32%;
     margin-right: 10%;
-	font-family: Open Sans;
+	font-family: 'Calibri';
 	font-size: 50px;
 	color: black;
 	}
@@ -214,7 +246,8 @@ button:hover{ /*adicionando efeito ao passar o mouse em cima do menu*/
 
 .textosM{ /*ajustando os textos desta página especificamente*/
     margin-top: 7%;
-    margin-left: 200px;
+    margin-left: 350px;
+    margin-right: 0%;
     font-size: 20px;
     font-family: 'Calibri';
    
@@ -243,16 +276,16 @@ input:invalid {  /*adicionando efeito visual para quando a resposta estiver cert
   }
 
 .formularios{ /*ajustando tamanho, posição e estilos da área onde estarão os formulários em si (input)*/
-    margin-left: 25%;
-    margin-top: 1%;
+    margin-left: 30%;
+    margin-top: 5%;
     width: 800px;
     height: 440px;
     background-color: white;
     box-sizing: border-box;
-    border-radius: 40px;
-    border: 6px brown;
-    border-style:ridge;
-    box-shadow: 10px 9px 9px red;
+
+    border: none;
+    box-shadow: 0px 0px 18px black;
+   
     text-align: center;
     font-size: 20px;
     font-family: 'Calibri';
@@ -263,7 +296,7 @@ input{ /*ajustando a própria área onde colocarão as informações*/
     border-left: none;
     border-right: none;
     margin-bottom: 2%;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 input:hover{ /*acrescentando efeito de "zoom" ao clicar nas áreas de inserir os dados*/
@@ -280,7 +313,7 @@ textarea{ /*ajustando e travando a textarea*/
 }
 
 .btn-acao{ /*ajustando a posição de ambos os botões*/
-    margin-left: 34%;
+    margin-left: 35%;
 }
 
 form [type="submit"], form [type="reset"] { /*colocando cor e estilo aos botões de enviar e limpar*/
@@ -322,7 +355,7 @@ form [type="submit"], form [type="reset"] { /*colocando cor e estilo aos botões
 
 
 footer { /* ajustando o footer (rodapé) das páginas*/
-    margin-top: 42%;
+    margin-top: 38%;
     margin-left: 40%;
 }
 
@@ -330,6 +363,7 @@ footer { /* ajustando o footer (rodapé) das páginas*/
     margin-top: 4%;
     margin-bottom: 2%;
     margin-left: 40%;
+    font-family: 'Calibri';
 }
 
 #rodapeA { /* ajustando o footer (rodapé) da página "Aviso"*/
@@ -339,10 +373,13 @@ footer { /* ajustando o footer (rodapé) das páginas*/
 }
 
 #rodapeC { /* ajustando o footer (rodapé) da página "contato"*/
+    width: 50%;
+    text-align: center;
     margin-top: 2%;
+    margin-left: 25%;
     margin-bottom: 2%;
-    margin-left: 40%;
-    color: brown;
+    color: black;
+    background-color: white;
 }
 
 
@@ -366,6 +403,7 @@ POR CONTA DISSO NÃO HAVERÁ COMENTÁRIOS*/
         background-color: #ffc700;
         text-align: center;
     }
+
 
 
     button{  
