@@ -246,7 +246,7 @@ button:hover{ /*adicionando efeito ao passar o mouse em cima do menu*/
 
 .textosM{ /*ajustando os textos desta página especificamente*/
     margin-top: 7%;
-    margin-left: 350px;
+    margin-left: 330px;
     margin-right: 0%;
     font-size: 20px;
     font-family: 'Calibri';
@@ -277,7 +277,7 @@ input:invalid {  /*adicionando efeito visual para quando a resposta estiver cert
 
 .formularios{ /*ajustando tamanho, posição e estilos da área onde estarão os formulários em si (input)*/
     margin-left: 30%;
-    margin-top: 5%;
+    margin-top: 10%;
     width: 800px;
     height: 440px;
     background-color: white;
@@ -335,27 +335,27 @@ form [type="submit"], form [type="reset"] { /*colocando cor e estilo aos botões
 /*ESTILIZANDO A PÁGINA DE AVISO DE ENVIO DOS DADOS*/    
 .tituloA { /*estilizando a primeira frase (título)*/
     font-size: 30px;
-    margin-left: 30%;
+    margin-left: 32%;
     margin-top: 3%;
 }
 
 .msgAviso{ /*arrumando a posição e estilo do texto de aviso*/
     margin-top: 1%;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 32%;
+    margin-right: 28%;
     font-size: 20px;
     font-family: 'Calibri';
     text-align: justify;
 }
 
 .parabens img{ /*personalizando o gif de parabéns*/
-    margin-left: 28%;
+    margin-left: 35%;
     margin-top: 4%;
 }
 
 
 footer { /* ajustando o footer (rodapé) das páginas*/
-    margin-top: 38%;
+    margin-top: 48%;
     margin-left: 40%;
 }
 
@@ -367,7 +367,7 @@ footer { /* ajustando o footer (rodapé) das páginas*/
 }
 
 #rodapeA { /* ajustando o footer (rodapé) da página "Aviso"*/
-    margin-top: 1%;
+    margin-top: 10%;
     margin-bottom: 2%;
     margin-left: 40%;
 }
@@ -375,7 +375,7 @@ footer { /* ajustando o footer (rodapé) das páginas*/
 #rodapeC { /* ajustando o footer (rodapé) da página "contato"*/
     width: 50%;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 4%;
     margin-left: 25%;
     margin-bottom: 2%;
     color: black;
